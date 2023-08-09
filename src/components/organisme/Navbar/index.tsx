@@ -15,7 +15,7 @@ const Navbar = (props: NavbarProps) => {
         <a href="#Project" className="hover:underline decoration-slate-50">
           Project
         </a>
-        <a href="" className="hover:underline decoration-slate-50">
+        <a href="#contact" className="hover:underline decoration-slate-50">
           Contact
         </a>
       </div>

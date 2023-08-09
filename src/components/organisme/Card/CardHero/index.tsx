@@ -1,9 +1,6 @@
 import ButtonPrimary from "@/components/atom/Button/ButtonPrimary";
-import ButtonSecondary from "@/components/atom/Button/ButtonSecondary";
 
 const CardHero = () => {
-  const handleBtnPrimary = () => {};
-  const handleBtnSecondary = () => {};
   return (
     <div className="flex w-64 flex-col gap-3 xl:w-2/5 md:flex">
       <p className="md:text-xl text-primary font-bold text-lg">
@@ -26,8 +23,7 @@ const CardHero = () => {
         menginspirasi! 🚀😊
       </p>
       <div className="flex gap-3">
-        <ButtonPrimary onClick={handleBtnPrimary}>Project</ButtonPrimary>
-        <ButtonSecondary onClick={handleBtnSecondary}>LinkedIn</ButtonSecondary>
+        <ButtonPrimary link="#contact">Contact</ButtonPrimary>
       </div>
     </div>
   );

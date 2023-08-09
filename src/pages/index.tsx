@@ -5,19 +5,6 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const handleClick = () => {};
-  // const [colorChange, setColorChange] = useState(false);
-  // console.log(colorChange);
-  // const changeNavbarColor = () => {
-  //   if (window.scrollY >= 80) {
-  //     setColorChange(true);
-  //   } else {
-  //     setColorChange(false);
-  //   }
-  // };
-  // useEffect(() => {
-  //   changeNavbarColor();
-  //   window.addEventListener("scroll", changeNavbarColor);
-  // });
   return (
     <div className="pb-9">
       <Hero />
@@ -46,7 +33,7 @@ export default function Home() {
         />
       </div>
       <div
-        id="Contact"
+        id="contact"
         className="w-full flex flex-col items-center justify-center font-bold text-5xl my-20 "
       >
         Contact
